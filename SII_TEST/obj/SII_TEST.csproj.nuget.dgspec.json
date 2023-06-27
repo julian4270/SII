@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julian Castellanos\\source\\repos\\SII_TEST\\SII_TEST\\SII_TEST.csproj": {}
+    "A:\\JULIAN_REPOSITORIO\\SII\\SII_TEST\\SII_TEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julian Castellanos\\source\\repos\\SII_TEST\\SII_TEST\\SII_TEST.csproj": {
+    "A:\\JULIAN_REPOSITORIO\\SII\\SII_TEST\\SII_TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julian Castellanos\\source\\repos\\SII_TEST\\SII_TEST\\SII_TEST.csproj",
+        "projectUniqueName": "A:\\JULIAN_REPOSITORIO\\SII\\SII_TEST\\SII_TEST.csproj",
         "projectName": "SII_TEST",
-        "projectPath": "C:\\Users\\Julian Castellanos\\source\\repos\\SII_TEST\\SII_TEST\\SII_TEST.csproj",
+        "projectPath": "A:\\JULIAN_REPOSITORIO\\SII\\SII_TEST\\SII_TEST.csproj",
         "packagesPath": "C:\\Users\\Julian Castellanos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julian Castellanos\\source\\repos\\SII_TEST\\SII_TEST\\obj\\",
+        "outputPath": "A:\\JULIAN_REPOSITORIO\\SII\\SII_TEST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Julian Castellanos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

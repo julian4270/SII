@@ -5,32 +5,37 @@
 <div class="text-center">
     <h1 class="display-4">Welcome THALES Employee</h1>
     <p>
+          <form>
         <label for="name">employee id:</label>
     <input type="text" id="name" name="name" required
        minlength="4" maxlength="8" size="10">
         <input class="favorite styled"
                type="button"
-               value="Search Employee">
+               value="Search Employee"> 
+</form>
     </p>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm" value={id}>
                 id
             </div>
-            <div class="col-sm">
+            <div class="col-sm" value={employee_name}>
                 employee_name
             </div>
-            <div class="col-sm">
+            <div class="col-sm" value={employee_salary}>
                 employee_salary
             </div>
-            <div class="col-sm">
+            <div class="col-sm" value={employee_age}>
                 employee_age
             </div>
-            <div class="col-sm">
+            <div class="col-sm"  value={profile_image}>
                 profile_image
             </div>
         </div>
     </div>
-      
+
+
+
+
 </div>
